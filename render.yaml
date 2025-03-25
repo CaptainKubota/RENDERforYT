@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mp3-to-mp4-server
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn main:app"
