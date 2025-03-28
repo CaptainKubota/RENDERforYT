@@ -4,4 +4,4 @@ requests
 ffmpeg-python
 PyDrive
 Pillow
-moviepy
+
